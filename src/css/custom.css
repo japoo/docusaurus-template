@@ -20,6 +20,78 @@
   --ifm-code-font-size: 95%;
 }
 
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container h1 span.ph, 
+header h1,
+.container h2 {
+  font-size: 16px !important;
+  color: #2d9ed0;
+}
+
+.container p {
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+.container div {
+  font-size: 12px;
+}
+
+.container ol li {
+  font-size: 12px;
+}
+
+.menu__list li a {
+  font-size: 12px;
+}
+ol ol, ul ol {
+  list-style-type: lower-alpha !important;
+}
+table.table thead.thead tr th {
+  background: #aec9d6; 
+  font-weight: bold; 
+  padding: 4px;
+}
+
+div.note.note_note, 
+div.note.note_trouble {
+  font-size: 12px;
+  text-align: justified;
+  background-color: lightgray !important;
+  color: #000;
+  border-radius: 0;
+}
+
+table.table tbody tr td.entry div.note.note_note span.note__title{
+  position: relative;
+}
+
+div.note.note_note a{  
+  color: #25c2a0 !important;
+}
+
+div.itemgroup.info table.table tbody tr td.entry div.note.note_note span.note__title:after {
+    content: ' ' !important;
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    width: 6px;
+    height: 50px;
+    background-color: #73817e;
+}
+
+span.note__title, span.ph.uicontrol {
+  color: #000 !important;
+}
+figcaption, figcaption span.fig--title-label  {
+  font-size: 10px;
+  font-style: italic;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
