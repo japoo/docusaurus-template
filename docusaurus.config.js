@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
   organizationName: 'your-org', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
@@ -23,7 +23,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()}.`,
+      copyright: `Copyright © ${new Date().getFullYear()}. Aurigo Software Technologies Inc.`,
     },
   },
   presets: [
@@ -45,12 +45,12 @@ module.exports = {
   ],
   plugins: [
     // To enable the local search functionality, uncomment the following code:
-    // [require.resolve('@cmfcmf/docusaurus-search-local'), {
-    // indexDocs: true,
-    //     docsRouteBasePath: '/',
-    //     indexDocSidebarParentCategories: 3,
-    //     indexPages: false,
-    //     language: "en"
-    // }]
+   [require.resolve('@cmfcmf/docusaurus-search-local'), {
+    indexDocs: true,
+    docsRouteBasePath: '/',
+    indexDocSidebarParentCategories: 3,
+    indexPages: false,
+    language: "en"
+    }]
   ],
 };
