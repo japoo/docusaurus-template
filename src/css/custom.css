@@ -83,11 +83,24 @@ code {
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.container div, .container ol li, .container p {
+	margin-bottom: 4px !important;
+	margin-top: 4px !important;
+}
 .container h1 span.ph, 
 header h1,
 .container h2 {
   font-size: 20px !important;
   color: #2d9ed0;
+}
+.markdown>h3 {
+  font-size: 20px !important;
+  color: #2d9ed0 !important;
+}
+
+header h1 span.ph {
+  font-weight: bold;
 }
 
 .container p {
@@ -117,42 +130,58 @@ header h1,
 ol ol, ul ol {
   list-style-type: lower-alpha !important;
 }
+ol ol ol {
+  list-style-type: lower-roman !important;
+}
+
+ol ol ol ol {
+  list-style-type: upper-alpha !important;
+}
 table.table thead.thead tr th {
   background: #aec9d6; 
   font-weight: bold; 
   padding: 4px;
 }
 
+table.table caption {
+  text-align: justify;
+}
+
+.fig.fignone {
+  margin-left: 0;
+}
+
+ul ul ul ul {
+  list-style-type: square !important;
+}
+
+table.table td {
+  text-align: justify;
+}
+
 div.note.note_note, 
 div.note.note_trouble {
   font-size: 12px;
   text-align: justified;
-  background-color: lightgray !important;
-  color: #000;
+  background-color: #f2f2f2 !important;
+  color: #4d4d4d;
   border-radius: 0;
+  border-left: 6px solid #2d9ed0;
 }
 
 table.table tbody tr td.entry div.note.note_note span.note__title{
   position: relative;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 div.note.note_note a{  
-  color: #25c2a0 !important;
-}
-
-div.itemgroup.info table.table tbody tr td.entry div.note.note_note span.note__title:after {
-    content: ' ' !important;
-    position: absolute;
-    top: -16px;
-    left: -16px;
-    width: 6px;
-    height: 50px;
-    background-color: #73817e;
+  color: #2d9ed0 !important;
 }
 
 span.note__title, span.ph.uicontrol {
-  color: #000 !important;
+  color: #6a737d !important;
 }
+
 figcaption, figcaption span.fig--title-label  {
   font-size: 10px;
   font-style: italic;
@@ -166,6 +195,10 @@ span.ph.uicontrol {
   font-weight: bold;
 }
 img.image {
+  border: 1px solid #2d9ed0;
+}
+
+.table td img.image {
   border: 1px solid #dadde1;
 }
 
@@ -176,3 +209,17 @@ div.pagination-nav__label {
 ul li p a, div a {
   color: #2d9ed0;
 }
+
+ul li p a:hover, div a:hover {
+  color: #2d9ed0;
+}
+
+.pagination-nav__link:hover {
+  border-color: #2d9ed0 !important;
+}
+
+.container p, .markdown li > p {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+
