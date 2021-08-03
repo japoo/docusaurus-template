@@ -11,9 +11,9 @@
     "serve": "docusaurus serve"
   },
   "dependencies": {
-    "@cmfcmf/docusaurus-search-local": "latest",
     "@docusaurus/core": "latest",
     "@docusaurus/preset-classic": "latest",
+    //"@cmfcmf/docusaurus-search-local": "latest",
     "@mdx-js/react": "latest",
     "clsx": "latest",
     "react": "latest",
