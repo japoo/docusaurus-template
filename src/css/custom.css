@@ -79,7 +79,8 @@ code {
   white-space: pre-wrap;
 }
 
-/* Updated css Bharathi*/
+/////////////////////////////////////////////
+/*------- Updated css Bharathi-----------*/
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -89,16 +90,25 @@ body {
 	margin-top: 4px !important;
 }
 .container h1 span.ph, 
-header h1,
-.container h2 {
+header h1 {
   font-size: 20px !important;
+  color: #2d9ed0;
+}
+.container h2 {
+  font-size: 18px !important;
   color: #2d9ed0;
 }
 .markdown>h3 {
   font-size: 20px !important;
   color: #2d9ed0 !important;
 }
-
+.container h2, .markdown>h2 { 
+  font-size: 18px !important;
+  color: #2d9ed0;
+}
+.container h2 span {
+	font-weight: bold;
+}
 header h1 span.ph {
   font-weight: bold;
 }
@@ -141,6 +151,7 @@ table.table thead.thead tr th {
   background: #aec9d6; 
   font-weight: bold; 
   padding: 4px;
+  text-align: center;
 }
 
 table.table caption {
@@ -198,6 +209,10 @@ img.image {
   border: 1px solid #2d9ed0;
 }
 
+ol li span img.image {
+	border: 1px solid #dadde1;
+}
+
 .table td img.image {
   border: 1px solid #dadde1;
 }
@@ -206,10 +221,12 @@ div.pagination-nav__label {
   color: #2d9ed0;
 }
 
-ul li p a, div a {
+ul li p a, div a{
   color: #2d9ed0;
 }
-
+ul li a.table-of-contents__link.table-of-contents__link--active, ul li a.table-of-contents__link:hover {
+  color: #2d9ed0;
+}
 ul li p a:hover, div a:hover {
   color: #2d9ed0;
 }
@@ -223,3 +240,6 @@ ul li p a:hover, div a:hover {
   margin-bottom: 4px !important;
 }
 
+div.note, div.note *, div.note span.ph {
+color: #000;
+}
