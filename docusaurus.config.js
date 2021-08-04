@@ -50,7 +50,7 @@ module.exports = {
       title: 'My Site',
       logo: {
         alt: 'Masterworks',
-        src: 'img/MWLogo.png',
+        src: 'img/logo.png',
       },
       items: [],
     },
