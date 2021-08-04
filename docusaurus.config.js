@@ -55,7 +55,7 @@ module.exports = {
       items: [],
     },
     footer: {
-      style: 'light',
+      style: 'dark',
       links: [],
       copyright: `Copyright © ${new Date().getFullYear()}. Aurigo Software Technologies Inc.`,
     },
