@@ -240,5 +240,6 @@ color: #000;
 }
 
 .prereq::before {
-content: "Prerequisite\n";
+content: "Prerequisites \A";
+white-space: pre;
 }
