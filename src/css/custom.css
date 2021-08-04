@@ -243,3 +243,8 @@ color: #000;
 content: "Prerequisites \A";
 white-space: pre;
 }
+
+.steps::before {
+content: "Steps \A";
+white-space: pre;
+}
