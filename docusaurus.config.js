@@ -16,12 +16,12 @@ module.exports = {
       title: 'My Site',
       logo: {
         alt: 'Masterworks',
-        src: 'img/logo.png',
+        src: 'img/MWLogo.png',
       },
       items: [],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [],
       copyright: `Copyright © ${new Date().getFullYear()}. Aurigo Software Technologies Inc.`,
     },
