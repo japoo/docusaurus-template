@@ -240,5 +240,5 @@ color: #000;
 }
 
 .prereq::before {
-content: "Prerequisite";
+content: "Prerequisite\n";
 }
