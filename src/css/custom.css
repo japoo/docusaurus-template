@@ -84,6 +84,10 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+table.table ol li {
+list-style-type: numeric;
+}
+
 .container div, .container ol li, .container p {
 	margin-bottom: 4px !important;
 	margin-top: 4px !important;
@@ -106,7 +110,7 @@ header h1 {
   color: #2d9ed0;
 }
 .container h2 span {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 }
 header h1 span.ph {
@@ -135,6 +139,13 @@ header h1 span.ph {
 content: "Prerequisites \A"; 
 white-space: pre;
 font-weight: bold; 
+}
+
+.steps::before { 
+content: "Steps \A"; 
+white-space: pre;
+font-weight: bold; 
+margin: -20px;	
 }
 
 .menu__list li a {
