@@ -239,6 +239,6 @@ div.note, div.note *, div.note span.ph {
 color: #000;
 }
 
-title:.prereq::before {
+.prereq::before {
 content: "Prerequisite";
 }
