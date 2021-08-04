@@ -250,6 +250,14 @@ div.pagination-nav__label {
   color: #2d9ed0;
 }
 
+.itemgroup.info {
+    margin-top: 0 !important;
+}
+
+ol li.li.step {
+    padding-left: 6px;
+}
+
 ul li p a, div a{
   color: #2d9ed0;
 }
