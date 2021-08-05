@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/logo.png',
+  favicon: 'img/Logo.png',
   organizationName: 'your-org', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
@@ -50,7 +50,7 @@ module.exports = {
       title: 'My Site',
       logo: {
         alt: 'Masterworks',
-        src: 'img/logo.png',
+        src: 'img/Logo.png',
       },
       items: [],
     },
