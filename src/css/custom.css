@@ -237,8 +237,9 @@ figcaption, figcaption span.fig--title-label  {
 span.ph.uicontrol {
   font-weight: bold;
 }
+
 img.image {
-  border: 1px solid #2d9ed0;
+  border: 1px solid #dadde1;
 }
 
 ol li span img.image {
@@ -293,4 +294,9 @@ table.simpletable.choicetable tr th[scope="col"]{
   font-weight: bold;
   padding: 4px;
   text-align: center !important;
+}
+
+/* Figure */
+.fig > img.image {
+  border: 1px solid #2d9ed0;
 }
