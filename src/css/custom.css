@@ -118,18 +118,18 @@ header h1 span.ph {
 }
 
 .container p {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 0;
   margin-bottom: 0;
   text-align: justify;
 }
 
 .container div {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .container ol li {
-  font-size: 12px;  
+  font-size: 14px;  
 }
 .container ul li {
   text-indent: 0;
@@ -151,7 +151,7 @@ margin-top: 10px;
 }
 
 .menu__list li a {
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif !important;  
 }
 .menu__list li {
@@ -197,7 +197,7 @@ table.table td {
 
 div.note.note_note, 
 div.note.note_trouble {
-  font-size: 12px;
+  font-size: 14px;
   text-align: justified;
   background-color: #f2f2f2 !important;
   color: #4d4d4d;
@@ -276,7 +276,7 @@ ul li p a:hover, div a:hover {
 
 .container p, .markdown li > p {
   margin-top: 4px !important;
-  margin-bottom: 4px !important;
+  margin-bottom: 10px !important;
 }
 
 div.note, div.note *, div.note span.ph {
