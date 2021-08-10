@@ -13,37 +13,37 @@
   padding-right: 3.5px;
 }
 .note_note > .note__title::before {
-  content: "\e906";
+  /*content: "\e906";*/
 }
 .note_trouble > .note__title::before {
-  content: "\e901";
+  /*content: "\e901";*/
 }
 .note_tip > .note__title::before {
-  content: "\e908";
+  /*content: "\e908";*/
 }
 .note_fastpath > .note__title::before {
-  content: "\e905";
+  /*content: "\e905";*/
 }
 .note_important > .note__title::before {
-  content: "\e90a";
+  /*content: "\e90a";*/
 }
 .note_remember > .note__title::before {
-  content: "\e907";
+  /*content: "\e907";*/
 }
 .note_restriction > .note__title::before {
-  content: "\e900";
+  /*content: "\e900";*/
 }
 .note_attention > .note__title::before {
-  content: "\e902";
+  /*content: "\e902";*/
 }
 .note_caution > .note__title::before {
-  content: "\e904";
+  /*content: "\e904";*/
 }
 .note_warning > .note__title::before {
-  content: "\e909";
+  /*content: "\e909";*/
 }
 .note_danger > .note__title::before {
-  content: "\e903";
+  /*content: "\e903";*/
 }
 
 /* All notes */
