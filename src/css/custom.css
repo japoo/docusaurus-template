@@ -286,29 +286,10 @@ button[type="button"].clean-btn {
 	background-color: #2d9ed0;
 }
 
-/* Choice table*/
-table.choicetable ol li {
-list-style-type: numeric;
-}
-
-table.choicetable thead.chhead tr th {
-  background: #aec9d6; 
-  font-weight: bold; 
+/* Simple table - Choice table*/
+table.simpletable.choicetable tr th[scope="col"]{
+  background: #aec9d6;
+  font-weight: bold;
   padding: 4px;
-  text-align: center;
-}
-
-table.choicetable caption {
-  text-align: justify;
-}
-table.choicetable td {
-  text-align: justify;
-}
-table.choicetable tbody tr td.entry div.note.note_note span.note__title{
-  position: relative;
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.choicetable td img.image {
-  border: 1px solid #dadde1;
+  text-align: center !important;
 }
