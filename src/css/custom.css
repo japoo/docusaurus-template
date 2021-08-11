@@ -85,7 +85,7 @@ body {
 	font-size: 14px;
 }
 
-table.table ol li {
+table.table ol > li {
 list-style-type: numeric;
 }
 
