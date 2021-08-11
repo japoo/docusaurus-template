@@ -42,7 +42,7 @@ table {
   color: var(--ifm-pre-color);
   /*font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);*/
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px !important;
+	font-size: 14px;
   margin: 0 0 var(--ifm-spacing-vertical);
   overflow: auto;
   padding: var(--ifm-pre-padding);
@@ -59,7 +59,7 @@ table {
     color: var(--ifm-pre-color);
     /*font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);*/
 	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px !important;
+	font-size: 14px;
     word-wrap: normal;
     /*font-family: monospace;*/
     white-space: pre-wrap;
