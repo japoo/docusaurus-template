@@ -40,13 +40,15 @@ table {
   background-color: var(--ifm-pre-background);
   border-radius: var(--ifm-pre-border-radius);
   color: var(--ifm-pre-color);
-  font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);
+  /*font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);*/
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 14px !important;
   margin: 0 0 var(--ifm-spacing-vertical);
   overflow: auto;
   padding: var(--ifm-pre-padding);
   word-wrap: normal;
   display: block;
-  font-family: monospace;
+  /*font-family: monospace;*/
   white-space: pre-wrap;
 }
 
@@ -55,9 +57,11 @@ table {
     background-color: var(--ifm-pre-background);
     border-radius: var(--ifm-pre-border-radius);
     color: var(--ifm-pre-color);
-    font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);
+    /*font: var(--ifm-code-font-size)/var(--ifm-pre-line-height) var(--ifm-font-family-monospace);*/
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 14px !important;
     word-wrap: normal;
-    font-family: monospace;
+    /*font-family: monospace;*/
     white-space: pre-wrap;
 }
 
