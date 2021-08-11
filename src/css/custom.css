@@ -209,6 +209,7 @@ div.note.note_trouble {
 table.table tbody tr td.entry div.note.note_note span.note__title{
   position: relative;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 14px !important;
 }
 
 div.note.note_note a{  
