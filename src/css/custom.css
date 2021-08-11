@@ -82,7 +82,7 @@ code {
 /*------- Updated css Bharathi-----------*/
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size: 14px;
+	font-size: 14px !important;
 }
 
 table.table ol > li {
@@ -289,6 +289,10 @@ button[type="button"].clean-btn {
 }
 
 /* Simple table - Choice table*/
+table.simpletable.choicetable{
+	border: none;
+}
+
 table.simpletable.choicetable tr th[scope="col"]{
   background: #aec9d6;
   font-weight: bold;
