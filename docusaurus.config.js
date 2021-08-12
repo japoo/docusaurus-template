@@ -2,7 +2,7 @@ module.exports = {
   title: 'Masterworks Online Help',
   tagline: 'Masterworks Online Help',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/Modules/MWWHELP/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/Logo.png',
   organizationName: 'your-org', // Usually your GitHub org/user name.
