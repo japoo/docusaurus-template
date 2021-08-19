@@ -52,7 +52,17 @@ module.exports = {
         alt: 'Masterworks',
         src: 'img/Logo.png',
       },
-      items: [],
+      items: [
+      {
+          href: '#',
+          className: 'forprint',
+          // Only one of "to" or "href" should be used
+          // href: 'https://www.facebook.com',
+          label: 'Print',
+          position: 'right',
+          //activeBaseRegex: 'docs/(next|v8)',
+        },
+      ],
     },
     footer: {
       style: 'dark',
